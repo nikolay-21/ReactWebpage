@@ -1,0 +1,99 @@
+.midSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-right: 26rem;
+    float: right;
+    position: relative;
+}
+
+.firstContainer{
+    display: flex;
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem;
+    width: 29rem;
+}
+
+.topDivIcon{
+    float: left;
+    width: 15%;
+    margin: auto 2rem;
+}
+
+.firstdivText{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.topdivHeading{
+    font-size: larger;
+}
+
+
+.secondContainer{
+    display: flex;
+    background-color: #F9F9F9;
+    border-radius: 12px;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem;
+    width: 31rem;
+}
+
+.midDivIcon{
+    float: left;
+    width: 15%;
+    margin: auto 2rem;
+}
+
+.seconddivText{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.middivHeading{
+    font-size: larger;
+}
+
+.thirdContainer{
+    display: flex;
+    background-color: #F9F9F9;
+    border: 2px solid #1F7EFB;
+    border-radius: 12px;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem;
+    width: 34rem;
+}
+
+.botDivIcon{
+    float: left;
+    width: 15%;
+    margin: auto 2rem;
+}
+
+.thirddivText{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.botdivHeading{
+    font-size: larger;
+    text-decoration: underline;
+    color: #1F7EFB;
+}
+
+@media only screen and (max-width: 1024px){
+    .midSection{
+        margin-right: 13rem;
+    }
+}
